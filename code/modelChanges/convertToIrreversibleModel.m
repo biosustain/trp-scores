@@ -1,16 +1,18 @@
-function irrevModel=convertToIrreversibleModel(model)
-%   irrevModel=convertToIrrev(model)
-%   Converts a model to irreversible form
-%
-%   model         a model structure
-%   irrevModel    a model structure where reversible reactions have
-%                 been split into one forward and one reverse reaction
-%
-%   The reverse reactions are saved as 'rxnID_REV'.
-%
-%   Rasmus Agren, 2013-08-01
-%
-%   Edited on 2015-12-02 by Benjamín Sánchez to not use getIndexes
+function irrevModel = convertToIrreversibleModel(model)
+  % convertToIrreversibleModel
+  %   Converts a model to irreversible form. Adapted from:
+  %   https://github.com/SysBioChalmers/RAVEN/blob/master/core/convertToIrrev.m
+  %
+  %   model         a model structure
+  %   rxns          cell array with the reactions so split (if reversible)
+  %                 (opt, default model.rxns)
+  %
+  %   irrevModel    a model structure where reversible reactions have
+  %                 been split into one forward and one reverse reaction
+  %
+  %   The reverse reactions are saved as 'rxnID_REV'.
+  %
+  %   Usage: irrevModel = convertToIrreversibleModel(model)
 
 irrevModel=model;
 revIndexesBool=model.rev~=0;
@@ -19,8 +21,8 @@ if any(revIndexesBool)
     irrevModel.S=[model.S,model.S(:,revIndexes)*-1];
     irrevModel.rev(revIndexes)=0;
     irrevModel.rev=[irrevModel.rev;zeros(numel(revIndexes),1)];
-    
-    %Get the limits for all normal and reversible rxns
+
+    % Get the limits for all normal and reversible rxns
     ubNormal=irrevModel.ub;
     ubNormal(revIndexes(ubNormal(revIndexes)<0))=0;
     lbNormal=irrevModel.lb;
@@ -31,23 +33,23 @@ if any(revIndexesBool)
     lbRev(lbRev<0)=0;
     irrevModel.ub=[ubNormal;ubRev];
     irrevModel.lb=[lbNormal;lbRev];
-    
-    %The objective coefficents should be zero for the backwards reversible
-    %reactions unless they were negative in the original. In that case they
-    %should be positive for the backwards reversible and deleted from the
-    %original
+
+    % The objective coefficents should be zero for the backwards reversible
+    % reactions unless they were negative in the original. In that case they
+    % should be positive for the backwards reversible and deleted from the
+    % original
     irrevC=zeros(numel(revIndexes),1);
-    
+
     if any(irrevModel.c(revIndexes)<0)
         originalC=irrevModel.c(revIndexes);
         irrevC(irrevModel.c(revIndexes)<0)=originalC(originalC<0)*-1;
         irrevModel.c(irrevModel.c<0 & revIndexesBool)=0;
     end
     irrevModel.c=[irrevModel.c;irrevC];
-    
+
     irrevModel.rxns=[irrevModel.rxns;strcat(irrevModel.rxns(revIndexes),'_REV')];
     irrevModel.rxnNames=[irrevModel.rxnNames;strcat(irrevModel.rxnNames(revIndexes),' (reversible)')];
-    
+
     if isfield(irrevModel,'grRules')
         irrevModel.grRules=[irrevModel.grRules;irrevModel.grRules(revIndexes,:)];
     end

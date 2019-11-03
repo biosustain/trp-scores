@@ -1,14 +1,14 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% [list,deleted] = deleteRepeated(list)
-% Recieves a list, removes all repeated elements and returns the list with
-% only non repeated elements, and also the list of the positions deleted.
-%
-% NOTE: Must be a string or cell array
-%
-% Benjamín J. Sánchez. Last edited: 2015-05-03
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 function [list,deleted] = deleteRepeated(list)
+  % deleteRepeated
+  %   Removes all repeated elements of a list.
+  %
+  %   list       (cell) a list
+  %
+  %   list       (cell) list with only non repeated elements
+  %   deleted    (cell) list of the positions deleted
+  %
+  %   Usage: [list,deleted] = deleteRepeated(list)
+  %
 
 N       = length(list);
 deleted = false(1,N);

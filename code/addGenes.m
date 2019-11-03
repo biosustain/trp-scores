@@ -1,5 +1,16 @@
-
 function geneTable = addGenes(geneTable,k_pos,new_set)
+  % addGenes
+  %   Adds gene data to a pre-existing table, matching the pre-existing genes
+  %   and creating new rows in case of no matches.
+  %
+  %   geneTable    (cell) a table with genes and scores
+  %   k_pos        (int) desired position for the new data
+  %   new_set      (cell) new data (table with gene-scores paired)
+  %
+  %   geneTable    (cell) updated table
+  %
+  %   Usage: geneTable = addGenes(geneTable,k_pos,new_set)
+  %
 
 N = length(geneTable(:,1));
 for i = 1:length(new_set.genes)
