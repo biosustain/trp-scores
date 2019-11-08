@@ -74,20 +74,14 @@ FC.k_matrix = k_matrix(order,:);
 gene_rxn    = gene_rxn(order,:);
 FC.rxns     = FC.rxns(order,:);
 
-% Create list of remaining genes and filter out any inconsistent score:
+% Create list of remaining genes:
 FC.genes   = model.genes(sum(gene_rxn,1) > 0);
 FC.k_genes = zeros(size(FC.genes));
 gene_rxn   = gene_rxn(:,sum(gene_rxn,1) > 0);
-cons_genes = false(size(FC.genes));
 for i = 1:length(FC.genes)
     k_set         = FC.k_rxns(gene_rxn(:,i) > 0);
-    always_down   = sum(k_set <= 1) == length(k_set);
-    always_up     = sum(k_set >= 1) == length(k_set);
-    cons_genes(i) = always_down + always_up == 1;
     FC.k_genes(i) = mean(k_set);
 end
-FC.genes   = FC.genes(cons_genes);
-FC.k_genes = FC.k_genes(cons_genes);
 
 % Filter any value between mean(alpha) and 1:
 unchanged  = (FC.k_genes >= mean(alpha) - 1e-3) + (FC.k_genes <= 1 + 1e-3) == 2;
