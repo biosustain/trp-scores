@@ -50,3 +50,8 @@ helpsearch*/
 *.xls
 *.xlsx
 *.tab
+
+# Cytoscape-related files #
+###########################
+*.cys
+*.pdf

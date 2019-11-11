@@ -7,10 +7,12 @@ Code used for scoring genes as upregulation / downregulation candidates for incr
 
 * A functional Matlab installation (MATLAB 7.3 or higher).
 * The [COBRA toolbox for MATLAB](https://github.com/opencobra/cobratoolbox).
+* The [RAVEN toolbox for MATLAB](https://github.com/SysBioChalmers/RAVEN).
 
 ### Usage
 
-Run `./code/compareDist.m` for performing the complete target search.
+* Run `./code/compareDist.m` for performing the complete target search.
+* Run `./code/networkVisualization/networkVisualization.m` (using `results` as input) to generate the required `.sif` files for constructing the associated cytoscape files.
 
 ### Documentation
 
