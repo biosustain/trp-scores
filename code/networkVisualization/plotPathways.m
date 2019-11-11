@@ -18,7 +18,7 @@ for i = 1:length(model.genes)
     pathway_set = model.subSystems(rxn_pos);
     pathway_set = cat(2, pathway_set{:});
     pathway_set = unique(pathway_set);
-    
+
     for j = 1:length(pathway_set)
         if ~isempty(pathway_set{j})
             % Find pathway name:
@@ -28,14 +28,14 @@ for i = 1:length(model.genes)
             else
                 pathway_name = pathway_set{j}(sce_pos+10:end);
             end
-            
+
             % Add new pathways the the array:
             if sum(strcmp(pathways,pathway_name)) == 0
                 pathways{x,1} = pathway_name;
                 x = x + 1;
             end
             pathway_pos = strcmp(pathways,pathway_name);
-            
+
             % Count gene:
             if ismember(model.genes{i},targets)
                 counts(pathway_pos,1) = counts(pathway_pos,1) + 1;
