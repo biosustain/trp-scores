@@ -23,8 +23,13 @@ delete(outfilename)
 % have pathway information):
 writeGeneLabels(model_new,targets)
 
+% Remove currency metabolites:
+currency_mets = {'H2O','H+','carbon dioxide','oxygen','phosphate', ...
+                 'diphosphate','ammonium','ATP','ADP','AMP','NAD', ...
+                 'NAD(+)','NADH','NADP(+)','NADPH'};
+model_old = removeMets(model_old,currency_mets,true);
+
 % Write gene interactions in the model with which the analysis was made:
-% TODO: test removing currency metabolites
 writeGeneInteractions(model_old)
 
 end
