@@ -19,6 +19,9 @@ model_new   = load(outfilename);
 model_new   = ravenCobraWrapper(model_new.model);
 delete(outfilename)
 
+% Plot pathways with the highest amount of targets:
+plotPathways(model_new,targets)
+
 % Write gene labels using the latest yeast-GEM model (as the old one does not
 % have pathway information):
 writeGeneLabels(model_new,targets)
