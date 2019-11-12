@@ -27,8 +27,8 @@ for i = 1:length(model.rxns)
     end
 end
 
-% Plot pathways with the highest amount of targets:
-plotPathways(model,targets)
+% Write pathway coverage file & plot results for PPP + glycolysis:
+writePathwayCoverage(model,targets)
 
 % Write gene labels using the latest yeast-GEM model (as the old one does not
 % have pathway information):

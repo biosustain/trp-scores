@@ -1,11 +1,19 @@
-function plotPathways(model,targets)
-  % plotPathways
-  %   Plots a bar plot with the top 10 pathways with most targets
+function writePathwayCoverage(model,targets)
+  % writePathwayCoverage
+  %   Writes in ./results/pathwayCoverage.tsv a table with the coverage in each
+  %   pathway of targets. Additionally, plots results for PPP and glycolysis.
   %
   %   model      (struct) metabolic model (in RAVEN format)
   %   targets    (cell) gene names that were detected as targets by compareDist.m
   %
-  %   Usage: plotPathways(model)
+  %   The output table has the following format:
+  %   * 1st column: pathway name
+  %   * 2nd column: number of target genes in pathway
+  %   * 3rd column: number of total genes in pathway
+  %   * 4th column: % of coverage in pathway
+  %   * 5th column: significance of coverage (p-val)
+  %
+  %   Usage: writePathwayCoverage(model,targets)
   %
 
 % Construct vector of pathways and vector of counts:
@@ -49,12 +57,36 @@ end
 pathways(x:end) = [];
 counts(x:end,:) = [];
 
+% Compute coverage %s & p-values:
+counts(:,3) = counts(:,1)./counts(:,2)*100;
+for i = 1:length(pathways)
+    in_target   = counts(i,1);
+    in_not      = counts(i,2) - in_target;
+    out_target  = length(targets) - in_target;
+    out_not     = length(model.genes) - length(targets) - in_not;
+    Fmatrix     = [in_target,in_not;out_target,out_not];
+    [~,p.val]   = fishertest(Fmatrix);
+    counts(i,4) = p.val;
+end
+
+% Sort by p-values:
+[counts,order] = sortrows(counts,4,'ascend');
+pathways       = pathways(order);
+
+% Write results:
+fid = fopen('../../results/pathwayCoverage.tsv','wt');
+fprintf(fid,'pathway\ttarget.count\tpathway.size\tcoverage.perc\tp.val\n');
+for i = 1:length(pathways)
+    fprintf(fid,'%s\t%d\t%d\t%.1f\t%.2e\n', pathways{i}, counts(i,:));
+end
+fclose(fid);
+
 % Data to plot:
 labels    = {'PPP','Glycolysis','Whole metabolism'};
 pos_PPP   = strcmp(pathways,'Pentose phosphate pathway');
 pos_glyco = strcmp(pathways,'Glycolysis');
-data(1)   = counts(pos_PPP,1)/counts(pos_PPP,2)*100;
-data(2)   = counts(pos_glyco,1)/counts(pos_glyco,2)*100;
+data(1)   = counts(pos_PPP,3);
+data(2)   = counts(pos_glyco,3);
 data(3)   = length(targets)/length(model.genes)*100;
 
 % Plot:
