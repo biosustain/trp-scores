@@ -1,15 +1,16 @@
 
 function writeGeneInteractions(model)
   % writeGeneInteractions
-  %   create gene-gene interaction file, which will have a connection size equal
-  %   to the number of metabolites shared by the associated reactions of the 2 genes.
+  %   Creates gene-gene interaction file in /results/geneInteractions.sif, which
+  %   will have a connection size equal to the number of metabolites shared by
+  %   the associated reactions of the 2 genes.
   %
   %   model    (struct) metabolic model (in RAVEN format)
   %
   %   Usage: writeGeneInteractions(model)
   %
 
-fid = fopen('geneInteractions.sif','wt');
+fid = fopen('../../results/geneInteractions.sif','wt');
 for i = 1:length(model.genes)-1
     for j = i+1:length(model.genes)
         % Genes:

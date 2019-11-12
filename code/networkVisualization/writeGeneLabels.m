@@ -1,21 +1,22 @@
 
 function writeGeneLabels(model,targets)
   % writeGeneLabels
-  %   writes up a table according to the format:
-  %   gene - pathway - is_target
-  %   gene:         name of the gene
-  %   pathway:      KEGG pathway the gene belongs to, based on the reactions the
-  %                 gene is associated to. In case of more than one, the majority wins.
-  %   is_target:    is it part of the target group (true/false)
+  %   Writes up a table with all genes in metabolism + some labels.
   %
   %   model      (struct) metabolic model (in RAVEN format)
   %   targets    (cell) gene names that were detected as targets by compareDist.m
+  %
+  %   The output table has the following format:
+  %   * 1st column: name of the gene
+  %   * 2nd column: KEGG pathway the gene belongs to, based on the reactions the
+  %                 gene is associated to.
+  %   * 3rd column: is it part of the target group (true/false)
   %
   %   Usage: writeGeneLabels(model,targets)
   %
 
 disp('Creating labels...')
-fid = fopen('geneLabels.sif','wt');
+fid = fopen('../../results/geneLabels.sif','wt');
 fprintf(fid,'gene\tpathway\tis_target\n');
 
 for i = 1:length(model.genes)

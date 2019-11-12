@@ -1,11 +1,11 @@
 function networkVisualization(results)
   % networkVisualization
-  % generates .sif files for visualization of the network in cytoscape
+  % Generates visualization files.
   %
   %   model      (struct) metabolic model (in COBRA format)
   %   results    (cell) results from compareDist.m
   %
-  %   Usage: networkVisualization(model,results)
+  %   Usage: networkVisualization(results)
   %
 
 % Pre-process input:
@@ -30,8 +30,7 @@ end
 % Write pathway coverage file & plot results for PPP + glycolysis:
 writePathwayCoverage(model,targets)
 
-% Write gene labels using the latest yeast-GEM model (as the old one does not
-% have pathway information):
+% Write gene labels (indicating pathway and target):
 writeGeneLabels(model,targets)
 
 % Remove currency metabolites:
@@ -40,7 +39,7 @@ currency_mets = {'H2O','H+','carbon dioxide','oxygen','phosphate', ...
                  'NAD(+)','NADH','NADP(+)','NADPH'};
 model = removeMets(model,currency_mets,true);
 
-% Write gene interactions in the model with which the analysis was made:
+% Write gene interactions based on shared metabolites between genes:
 writeGeneInteractions(model)
 
 end
