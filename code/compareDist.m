@@ -37,3 +37,23 @@ results.geneTable      = cell(length(results.glucose.genes),3);
 results.geneTable(:,1) = results.glucose.genes;
 results.geneTable(:,2) = num2cell(results.glucose.k_genes);
 results.geneTable      = addGenes(results.geneTable,3,results.ethanol);
+
+% Count the number of associated rxns:
+genes   = results.geneTable(:,1);
+rxns    = [results.glucose.rxns(:,1);results.ethanol.rxns(:,1)];
+grRules = [results.glucose.rxns(:,3);results.ethanol.rxns(:,3)];
+rxns    = strrep(rxns,'_REV','');
+[~,pos] = unique(rxns);
+grRules = grRules(pos);
+grRules = strrep(grRules,'(','');
+grRules = strrep(grRules,')','');
+count   = zeros(size(grRules));
+for i = 1:length(grRules)
+    gene_set = strsplit(grRules{i},' ');
+    for j = 1:length(genes)
+        if ismember(genes{j},gene_set)
+            count(i) = 1;
+        end
+    end
+end
+disp(['Number of rxns associated to genes: ' num2str(sum(count))])
