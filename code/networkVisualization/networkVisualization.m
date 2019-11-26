@@ -39,6 +39,13 @@ currency_mets = {'H2O','H+','carbon dioxide','oxygen','phosphate', ...
                  'NAD(+)','NADH','NADP(+)','NADPH'};
 model = removeMets(model,currency_mets,true);
 
+% Display the metabolites with the highest number of connections:
+connections = sum(full(model.S) ~= 0, 2);
+[connections,order] = sort(connections,'descend');
+for i = 1:10
+    disp(['#' num2str(i) ': ' model.metNames{i} ' (' num2str(connections(i)) ' connections)'])
+end
+
 % Write gene interactions based on shared metabolites between genes:
 writeGeneInteractions(model)
 
