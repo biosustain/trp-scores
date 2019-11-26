@@ -1,0 +1,350 @@
+kscore	rxn.code	rxn.name	rxn.genes	rxn.formula
+1000.00	r_0663	isoleucine transaminase	YJR148W	2-oxoglutarate + L-isoleucine  -> (S)-3-methyl-2-oxopentanoate + L-glutamate 
+1000.00	r_0819	ornithine transaminase	YLR438W	2-oxoglutarate + ornithine  -> L-glutamate + L-glutamic 5-semialdehyde 
+1000.00	r_0664_REV	isoleucine transaminase (reversible)	YHR208W	(S)-3-methyl-2-oxopentanoate + L-glutamate  -> 2-oxoglutarate + L-isoleucine 
+909.18	r_1050_REV	transketolase 2 (reversible)	(YBR117C OR YPR074C)	D-fructose 6-phosphate + glyceraldehyde 3-phosphate  -> D-erythrose 4-phosphate + D-xylulose 5-phosphate 
+636.73	r_0042	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	(YBR249C OR YDR035W)	D-erythrose 4-phosphate + H2O + phosphoenolpyruvate  -> 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid + phosphate 
+636.73	r_2117	phenylalanine transaminase	YHR137W	L-phenylalanine + pyruvate  -> keto-phenylpyruvate + L-alanine 
+636.73	r_1239	oxaloacetate transport	YKL120W	H+ + oxaloacetate  -> H+ + oxaloacetate 
+455.09	r_0647	IPS phospholipase C	YER019W	H2O + inositol-P-ceramide A (C26)  -> 1D-myo-inositol 1-phosphate + ceramide-1 (C26) 
+448.33	r_1219_REV	L-tryptophan transport (reversible)	(YBR068C OR YBR069C OR YDR046C OR YKR039W OR YOL020W)	H+ + L-tryptophan  -> H+ + L-tryptophan 
+364.27	r_3436	IPC synthase (PI (1-16:0, 2-16:1) ceramide-1 (C26))	(YDR367W AND YKL004W)	ceramide-1 (C26) + 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)  -> inositol-P-ceramide A (C26) + diglyceride (1-16:0, 2-16:1) 
+273.45	r_2436	CDP-diacylglycerol synthase (1-16:0, 2-18:1), ER membrane	YBR029C	H+ + phosphatidate (1-16:0, 2-18:1) + CTP  -> diphosphate + CDP-diacylglycerol (1-16:0, 2-18:1) 
+273.45	r_2458	PI synthase (1-16:0, 2-18:1), ER membrane	YPR113W	CDP-diacylglycerol (1-16:0, 2-18:1) + myo-inositol  -> H+ + CMP + 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1) 
+273.45	r_2512	DAG kinase (1-16:0, 2-16:1), ER membrane	YOR311C	diglyceride (1-16:0, 2-16:1) + CTP  -> H+ + phosphatidate (1-16:0, 2-16:1) + CDP 
+273.45	r_2516	DAG kinase (1-16:0, 2-18:1), ER membrane	YOR311C	diglyceride (1-16:0, 2-18:1) + CTP  -> H+ + phosphatidate (1-16:0, 2-18:1) + CDP 
+273.45	r_0984_REV	ribulose 5-phosphate 3-epimerase (reversible)	YJL121C	D-xylulose 5-phosphate  -> D-ribulose 5-phosphate 
+182.64	r_0529	guanylate kinase (GMP:dATP)	YDR454C	dATP + GMP  -> dADP + GDP 
+182.64	r_0650	IPS phospholipase C	YER019W	H2O + inositol-P-ceramide B (C24)  -> 1D-myo-inositol 1-phosphate + ceramide-2 (C24) 
+182.64	r_0970	ribonucleoside-triphosphate reductase (ATP)	YGR209C	ATP + TRX1  -> dATP + H2O + TRX1 disulphide 
+182.64	r_2435	CDP-diacylglycerol synthase (1-18:1, 2-16:1), ER membrane	YBR029C	H+ + phosphatidate (1-18:1, 2-16:1) + CTP  -> diphosphate + CDP-diacylglycerol (1-18:1, 2-16:1) 
+182.64	r_2457	PI synthase (1-18:1, 2-16:1), ER membrane	YPR113W	CDP-diacylglycerol (1-18:1, 2-16:1) + myo-inositol  -> H+ + CMP + 1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1) 
+182.64	r_2515	DAG kinase (1-18:1, 2-16:1), ER membrane	YOR311C	diglyceride (1-18:1, 2-16:1) + CTP  -> H+ + phosphatidate (1-18:1, 2-16:1) + CDP 
+182.64	r_3352	inositolphosphotransferase (PI (1-16:0, 2-18:1) MIPC-A (C24))	YDR072C	mannosylinositol phosphorylceramide A (C24) + 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1)  -> inositol phosphomannosylinositol phosphoceramide A (C24) + diglyceride (1-16:0, 2-18:1) 
+91.82	r_0648	IPS phospholipase C	YER019W	H2O + inositol-P-ceramide B' (C24)  -> 1D-myo-inositol 1-phosphate + ceramide-2' (C24) 
+91.82	r_0649	IPS phospholipase C	YER019W	H2O + inositol-P-ceramide B' (C26)  -> 1D-myo-inositol 1-phosphate + ceramide-2' (C26) 
+91.82	r_0654	IPS phospholipase C	YER019W	H2O + inositol-P-ceramide D (C24)  -> 1D-myo-inositol 1-phosphate + ceramide-4 (C24) 
+91.82	r_0655	IPS phospholipase C	YER019W	H2O + inositol-P-ceramide D (C26)  -> 1D-myo-inositol 1-phosphate + ceramide-4 (C26) 
+91.82	r_2433	CDP-diacylglycerol synthase (1-16:1, 2-16:1), ER membrane	YBR029C	H+ + phosphatidate (1-16:1, 2-16:1) + CTP  -> diphosphate + CDP-diacylglycerol (1-16:1, 2-16:1) 
+91.82	r_2434	CDP-diacylglycerol synthase (1-18:0, 2-16:1), ER membrane	YBR029C	H+ + phosphatidate (1-18:0, 2-16:1) + CTP  -> diphosphate + CDP-diacylglycerol (1-18:0, 2-16:1) 
+91.82	r_2437	CDP-diacylglycerol synthase (1-16:1, 2-18:1), ER membrane	YBR029C	H+ + phosphatidate (1-16:1, 2-18:1) + CTP  -> diphosphate + CDP-diacylglycerol (1-16:1, 2-18:1) 
+91.82	r_2455	PI synthase (1-16:1, 2-16:1), ER membrane	YPR113W	CDP-diacylglycerol (1-16:1, 2-16:1) + myo-inositol  -> H+ + CMP + 1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1) 
+91.82	r_2456	PI synthase (1-18:0, 2-16:1), ER membrane	YPR113W	CDP-diacylglycerol (1-18:0, 2-16:1) + myo-inositol  -> H+ + CMP + 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1) 
+91.82	r_2459	PI synthase (1-16:1, 2-18:1), ER membrane	YPR113W	CDP-diacylglycerol (1-16:1, 2-18:1) + myo-inositol  -> H+ + CMP + 1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1) 
+91.82	r_2513	DAG kinase (1-16:1, 2-16:1), ER membrane	YOR311C	diglyceride (1-16:1, 2-16:1) + CTP  -> H+ + phosphatidate (1-16:1, 2-16:1) + CDP 
+91.82	r_2514	DAG kinase (1-18:0, 2-16:1), ER membrane	YOR311C	diglyceride (1-18:0, 2-16:1) + CTP  -> H+ + phosphatidate (1-18:0, 2-16:1) + CDP 
+91.82	r_2517	DAG kinase (1-16:1, 2-18:1), ER membrane	YOR311C	diglyceride (1-16:1, 2-18:1) + CTP  -> H+ + phosphatidate (1-16:1, 2-18:1) + CDP 
+91.82	r_3349	inositolphosphotransferase (PI (1-16:1, 2-16:1) MIPC-A (C24))	YDR072C	mannosylinositol phosphorylceramide A (C24) + 1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1)  -> inositol phosphomannosylinositol phosphoceramide A (C24) + diglyceride (1-16:1, 2-16:1) 
+91.82	r_3351	inositolphosphotransferase (PI (1-18:1, 2-16:1) MIPC-A (C24))	YDR072C	mannosylinositol phosphorylceramide A (C24) + 1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1)  -> inositol phosphomannosylinositol phosphoceramide A (C24) + diglyceride (1-18:1, 2-16:1) 
+91.82	r_3353	inositolphosphotransferase (PI (1-16:1, 2-18:1) MIPC-A (C24))	YDR072C	mannosylinositol phosphorylceramide A (C24) + 1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1)  -> inositol phosphomannosylinositol phosphoceramide A (C24) + diglyceride (1-16:1, 2-18:1) 
+91.82	r_3432	IPC synthase (PI (1-16:0, 2-18:1) ceramide-1 (C24))	(YDR367W AND YKL004W)	ceramide-1 (C24) + 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1)  -> inositol-P-ceramide A (C24) + diglyceride (1-16:0, 2-18:1) 
+91.82	r_3439	IPC synthase (PI (1-18:1, 2-16:1) ceramide-1 (C26))	(YDR367W AND YKL004W)	ceramide-1 (C26) + 1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1)  -> inositol-P-ceramide A (C26) + diglyceride (1-18:1, 2-16:1) 
+91.82	r_3444	IPC synthase (PI (1-16:0, 2-16:1) ceramide-2' (C24))	(YDR367W AND YKL004W)	ceramide-2' (C24) + 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)  -> inositol-P-ceramide B' (C24) + diglyceride (1-16:0, 2-16:1) 
+91.82	r_3452	IPC synthase (PI (1-16:0, 2-16:1) ceramide-2' (C26))	(YDR367W AND YKL004W)	ceramide-2' (C26) + 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)  -> inositol-P-ceramide B' (C26) + diglyceride (1-16:0, 2-16:1) 
+91.82	r_3460	IPC synthase (PI (1-16:0, 2-16:1) ceramide-2 (C24))	(YDR367W AND YKL004W)	ceramide-2 (C24) + 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)  -> inositol-P-ceramide B (C24) + diglyceride (1-16:0, 2-16:1) 
+91.82	r_3462	IPC synthase (PI (1-18:0, 2-16:1) ceramide-2 (C24))	(YDR367W AND YKL004W)	ceramide-2 (C24) + 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1)  -> inositol-P-ceramide B (C24) + diglyceride (1-18:0, 2-16:1) 
+91.82	r_3492	IPC synthase (PI (1-16:0, 2-16:1) ceramide-4 (C24))	(YDR367W AND YKL004W)	ceramide-4 (C24) + 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)  -> inositol-P-ceramide D (C24) + diglyceride (1-16:0, 2-16:1) 
+91.82	r_3500	IPC synthase (PI (1-16:0, 2-16:1) ceramide-4 (C26))	(YDR367W AND YKL004W)	ceramide-4 (C26) + 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)  -> inositol-P-ceramide D (C26) + diglyceride (1-16:0, 2-16:1) 
+56.79	r_0202	anthranilate phosphoribosyltransferase	YDR354W	anthranilate + PRPP  -> diphosphate + N-(5-phospho-beta-D-ribosyl)anthranilate 
+56.79	r_0203	anthranilate synthase	(YER090W AND YKL211C)	chorismate + L-glutamine  -> anthranilate + H+ + L-glutamate + pyruvate 
+56.79	r_0566	indole-3-glycerol-phosphate synthase	YKL211C	1-(2-carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate + H+  -> 1-C-(indol-3-yl)glycerol 3-phosphate + carbon dioxide + H2O 
+56.79	r_0913	phosphoribosylanthranilate isomerase	YDR007W	N-(5-phospho-beta-D-ribosyl)anthranilate  -> 1-(2-carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate 
+56.79	r_1055	tryptophan synthase (indoleglycerol phosphate)	YGL026C	1-C-(indol-3-yl)glycerol 3-phosphate + L-serine  -> glyceraldehyde 3-phosphate + H2O + L-tryptophan 
+7.36	r_0039	3-dehydroquinate dehydratase	YDR127W	3-dehydroquinate  -> 3-dehydroshikimate + H2O 
+7.36	r_0040	3-dehydroquinate synthase	YDR127W	7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid  -> 3-dehydroquinate + phosphate 
+7.36	r_0065	3-phosphoshikimate 1-carboxyvinyltransferase	YDR127W	3-phosphoshikimic acid + phosphoenolpyruvate  -> 5-O-(1-carboxyvinyl)-3-phosphoshikimic acid + phosphate 
+7.36	r_0279	chorismate synthase	YGL148W	5-O-(1-carboxyvinyl)-3-phosphoshikimic acid  -> chorismate + phosphate 
+7.36	r_0996	shikimate dehydrogenase	YDR127W	3-dehydroshikimate + H+ + NADPH  -> NADP(+) + shikimate 
+7.36	r_0997	shikimate kinase	YDR127W	ATP + shikimate  -> 3-phosphoshikimic acid + ADP + H+ 
+6.67	r_0020	2-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	YDR035W	D-erythrose 4-phosphate + H2O + phosphoenolpyruvate  -> 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid + phosphate 
+6.67	r_1112_REV	AKG transporter, mitochonrial (reversible)	YMR241W	2-oxoglutarate + citrate  -> 2-oxoglutarate + citrate 
+6.67	r_1127_REV	citrate transport (reversible)	YBR291C	citrate + phosphoenolpyruvate  -> citrate + phosphoenolpyruvate 
+6.47	r_0916	phosphoribosylpyrophosphate synthetase	((YBL068W AND YOL061W) OR (YER099C AND YOL061W) OR (YHL011C AND YKL181W))	ATP + ribose-5-phosphate  -> AMP + H+ + PRPP 
+3.49	r_0891	phosphoglycerate dehydrogenase	(YER081W OR YIL074C)	3-phosphoglycerate + NAD  -> 3-phospho-hydroxypyruvate + H+ + NADH 
+3.49	r_0917	phosphoserine phosphatase (L-serine)	YGR208W	3-phospho-serine + H2O  -> L-serine + phosphate 
+3.49	r_0918	phosphoserine transaminase	YOR184W	3-phospho-hydroxypyruvate + L-glutamate  -> 2-oxoglutarate + 3-phospho-serine 
+3.10	r_1194	L-glutamate transport	YPR021C	L-glutamate  -> L-glutamate 
+2.77	r_0476	glutamine synthetase	YPR035W	ammonium + ATP + L-glutamate  -> ADP + H+ + L-glutamine + phosphate 
+2.22	r_0982	ribose-5-phosphate isomerase	YOR095C	D-ribulose 5-phosphate  -> ribose-5-phosphate 
+1.20	r_1115	ammonia transport	(YDR384C OR YGR121C OR YNL142W OR YPR138C)	ammonium  -> ammonium 
+1.17	r_0227	ATPase, cytosolic	((YCR024C-A AND YEL017C-A AND YGL008C) OR (YCR024C-A AND YEL017C-A AND YPL036W) OR YER005W)	ATP + H2O  -> ADP + H+ + phosphate 
+1.14	r_0467	glucose-6-phosphate isomerase	YBR196C	D-glucose 6-phosphate  -> D-fructose 6-phosphate 
+1.11	r_1277_REV	water diffusion (reversible)	(YLL052C OR YPR192W)	H2O  -> H2O 
+1.07	r_1048	transaldolase	YLR354C	glyceraldehyde 3-phosphate + sedoheptulose 7-phosphate  -> D-erythrose 4-phosphate + D-fructose 6-phosphate 
+1.07	r_1049	transketolase 1	(YBR117C OR YPR074C)	D-xylulose 5-phosphate + ribose-5-phosphate  -> glyceraldehyde 3-phosphate + sedoheptulose 7-phosphate 
+1.07	r_0770	NADH dehydrogenase, cytosolic/mitochondrial	(YDL085W OR YMR145C)	H+ + NADH + ubiquinone-6  -> NAD + ubiquinol-6 
+1.06	r_0091	6-phosphogluconolactonase	(YGR248W OR YHR163W)	6-O-phosphono-D-glucono-1,5-lactone + H2O  -> 6-phospho-D-gluconate + H+ 
+1.06	r_0466	glucose 6-phosphate dehydrogenase	YNL241C	D-glucose 6-phosphate + NADP(+)  -> 6-O-phosphono-D-glucono-1,5-lactone + H+ + NADPH 
+1.06	r_0889	phosphogluconate dehydrogenase	(YGR256W OR YHR183W)	6-phospho-D-gluconate + NADP(+)  -> carbon dioxide + D-ribulose 5-phosphate + NADPH 
+1.00	r_0534	hexokinase (D-glucose:ATP)	(YCL040W OR YFR053C OR YGL253W)	ATP + D-glucose  -> ADP + D-glucose 6-phosphate + H+ 
+1.00	r_1166	glucose transport	(YDL245C OR YDL247W OR YDR342C OR YDR343C OR YDR345C OR YDR536W OR YEL069C OR YFL011W OR YHR092C OR YHR094C OR YHR096C OR YJL214W OR YJL219W OR YJR158W OR YJR160C OR YLR081W OR YMR011W OR YNR072W OR YOL156W)	D-glucose  -> D-glucose 
+0.92	r_0471	glutamate dehydrogenase (NADP)	(YAL062W OR YOR375C)	2-oxoglutarate + ammonium + H+ + NADPH  -> H2O + L-glutamate + NADP(+) 
+0.92	r_0148	adenylate kinase	YDR226W	AMP + ATP  -> 2 ADP 
+0.90	r_0486	glyceraldehyde-3-phosphate dehydrogenase	(YGR192C OR YJL052W OR YJR009C)	glyceraldehyde 3-phosphate + NAD + phosphate  -> 1,3-bisphospho-D-glycerate + H+ + NADH 
+0.90	r_0892	phosphoglycerate kinase	YCR012W	1,3-bisphospho-D-glycerate + ADP  -> 3-phosphoglycerate + ATP 
+0.88	r_1054	triose-phosphate isomerase	YDR050C	dihydroxyacetone phosphate  -> glyceraldehyde 3-phosphate 
+0.88	r_0450	fructose-bisphosphate aldolase	YKL060C	D-fructose 1,6-bisphosphate  -> dihydroxyacetone phosphate + glyceraldehyde 3-phosphate 
+0.88	r_0886	phosphofructokinase	(YGR240C AND YMR205C)	ATP + D-fructose 6-phosphate  -> ADP + D-fructose 1,6-bisphosphate + H+ 
+0.80	r_0569	inorganic diphosphatase	YMR267W	diphosphate + H2O  -> H+ + 2 phosphate 
+0.75	r_0366	enolase	(YGR254W OR YHR174W)	2-phospho-D-glyceric acid  -> H2O + phosphoenolpyruvate 
+0.75	r_0893	phosphoglycerate mutase	YKL152C	3-phosphoglycerate  -> 2-phospho-D-glyceric acid 
+0.75	r_0226	ATP synthase	((Q0080 AND Q0085 AND Q0130 AND YBL099W AND YBR039W AND YDL004W AND YDR298C AND YDR322C-A AND YDR377W AND YJR121W AND YKL016C AND YLR295C AND YML081C-A AND YPL078C AND YPL271W) OR (Q0080 AND Q0085 AND Q0130 AND YBL099W AND YBR039W AND YDL004W AND YDR298C AND YDR377W AND YJR121W AND YKL016C AND YLR295C AND YML081C-A AND YPL078C AND YPL271W AND YPR020W))	ADP + 3 H+ + phosphate  -> ATP + 2 H+ + H2O 
+0.74	r_0439	ubiquinol:ferricytochrome c reductase	((Q0105 AND YBL045C AND YDR529C AND YEL024W AND YEL039C AND YFR033C AND YGR183C AND YHR001W-A AND YJL166W AND YOR065W AND YPR191W) OR (Q0105 AND YBL045C AND YDR529C AND YEL024W AND YFR033C AND YGR183C AND YHR001W-A AND YJL166W AND YJR048W AND YOR065W AND YPR191W))	2 ferricytochrome c + 2 H+ + ubiquinol-6  -> 2 ferrocytochrome c + 4 H+ + ubiquinone-6 
+0.74	r_0438	ferrocytochrome-c:oxygen oxidoreductase	((Q0045 AND Q0250 AND Q0275 AND YDL067C AND YEL039C AND YGL187C AND YGL191W AND YHR051W AND YIL111W AND YLR038C AND YLR395C AND YMR256C) OR (Q0045 AND Q0250 AND Q0275 AND YDL067C AND YEL039C AND YGL187C AND YGL191W AND YHR051W AND YLR038C AND YLR395C AND YMR256C AND YNL052W) OR (Q0045 AND Q0250 AND Q0275 AND YDL067C AND YGL187C AND YGL191W AND YHR051W AND YIL111W AND YJR048W AND YLR038C AND YLR395C AND YMR256C) OR (Q0045 AND Q0250 AND Q0275 AND YDL067C AND YGL187C AND YGL191W AND YHR051W AND YJR048W AND YLR038C AND YLR395C AND YMR256C AND YNL052W))	4 ferrocytochrome c + 8 H+ + oxygen  -> 4 ferricytochrome c + 4 H+ + 2 H2O 
+0.74	r_1110	ADP/ATP transporter	(YBL030C OR YBR085W OR YMR056C)	ADP + ATP  -> ADP + ATP 
+0.70	r_1245	phosphate transport	(YER053C OR YJR077C)	H+ + phosphate  -> H+ + phosphate 
+0.61	r_0451	fumarase	YPL262W	fumarate + H2O  -> (S)-malate 
+0.61	r_1022	succinate-CoA ligase (ADP-forming)	(YGR244C AND YOR142W)	ADP + phosphate + succinyl-CoA  -> ATP + coenzyme A + succinate 
+0.61	r_0505	glycine-cleavage complex (lipoamide)	((YAL044C AND YDR019C AND YFL018C AND YMR189W) OR (YDR148C AND YFL018C AND YIL125W))	dihydrolipoamide + NAD  -> H+ + lipoamide + NADH 
+0.61	r_0831	oxoglutarate dehydrogenase (dihydrolipoamide S-succinyltransferase)	(YDR148C AND YFL018C AND YIL125W)	coenzyme A + S(8)-succinyldihydrolipoamide  -> dihydrolipoamide + succinyl-CoA 
+0.61	r_0832	oxoglutarate dehydrogenase (lipoamide)	(YDR148C AND YFL018C AND YIL125W)	2-oxoglutarate + H+ + lipoamide  -> carbon dioxide + S(8)-succinyldihydrolipoamide 
+0.61	r_1021	succinate dehydrogenase (ubiquinone-6)	((YDR178W AND YJL045W AND YKL141W AND YLL041C) OR (YDR178W AND YKL141W AND YKL148C AND YLL041C))	succinate + ubiquinone-6  -> fumarate + ubiquinol-6 
+0.60	r_0280	cis-aconitate(3-) to isocitrate	YLR304C	cis-aconitate + H2O  -> isocitrate 
+0.60	r_0300	citrate synthase	(YNR001C OR YPR001W)	acetyl-CoA + H2O + oxaloacetate  -> citrate + coenzyme A + H+ 
+0.60	r_0302	citrate to cis-aconitate(3-)	YLR304C	citrate  -> cis-aconitate + H2O 
+0.60	r_2034	pyruvate transport	((YGL080W AND YGR243W) OR (YGL080W AND YHR162W))	H+ + pyruvate  -> H+ + pyruvate 
+0.59	r_0961	pyruvate dehydrogenase	(YBR221C AND YER178W AND YFL018C AND YGR193C AND YNL071W)	coenzyme A + NAD + pyruvate  -> acetyl-CoA + carbon dioxide + NADH 
+0.59	r_0773	NADH:ubiquinone oxidoreductase	YML120C	H+ + NADH + ubiquinone-6  -> NAD + ubiquinol-6 
+0.57	r_0713	malate dehydrogenase	YKL085W	(S)-malate + NAD  -> H+ + NADH + oxaloacetate 
+0.57	r_0658	isocitrate dehydrogenase (NAD+)	(YNL037C AND YOR136W)	isocitrate + NAD  -> 2-oxoglutarate + carbon dioxide + NADH 
+0.55	r_0326	dCMP deaminase	YHR144C	dCMP + H+ + H2O  -> ammonium + dUMP 
+0.55	r_0976	ribonucleotide reductase	(YER070W OR YGR180C OR YIL066C OR YJL026W)	CDP + TRX1  -> dCDP + H2O + TRX1 disulphide 
+0.55	r_0757	myo-inositol 1-phosphatase	(YDR287W OR YHR046C)	1D-myo-inositol 1-phosphate + H2O  -> myo-inositol + phosphate 
+0.55	r_2454	PI synthase (1-16:0, 2-16:1), ER membrane	YPR113W	CDP-diacylglycerol (1-16:0, 2-16:1) + myo-inositol  -> H+ + CMP + 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1) 
+0.55	r_0307	CTP synthase (NH3)	(YBL039C OR YJR103W)	ammonium + ATP + UTP  -> ADP + CTP + 2 H+ + phosphate 
+0.55	r_2432	CDP-diacylglycerol synthase (1-16:0, 2-16:1), ER membrane	YBR029C	H+ + phosphatidate (1-16:0, 2-16:1) + CTP  -> diphosphate + CDP-diacylglycerol (1-16:0, 2-16:1) 
+0.55	r_0446_REV	formate-tetrahydrofolate ligase (reversible)	YGR204W	10-formyl-THF + ADP + phosphate  -> ATP + formate + THF 
+0.55	r_0445	formate dehydrogenase	YOR388C	formate + NAD  -> carbon dioxide + NADH 
+0.55	r_0758	myo-inositol-1-phosphate synthase	YJL153C	D-glucose 6-phosphate  -> 1D-myo-inositol 1-phosphate 
+0.55	r_0747	MIPC synthase	((YBR036C AND YBR161W) OR (YBR036C AND YPL057C))	GDP-alpha-D-mannose + inositol-P-ceramide A (C24)  -> GDP + mannosylinositol phosphorylceramide A (C24) 
+0.55	r_0041	3-dehydrosphinganine reductase	YBR265W	3-ketosphinganine + 2 H+ + NADPH  -> NADP(+) + sphinganine 
+0.55	r_0340	dihydroceramidase	YPL087W	lignoceric acid + sphinganine  -> ceramide-1 (C24) 
+0.55	r_0993	serine palmitotransferase	((YBR058C-A AND YDR062W AND YMR296C) OR (YDR062W AND YMR296C))	L-serine + palmitoyl-CoA  -> 3-ketosphinganine + carbon dioxide + coenzyme A 
+0.55	r_2157	elongase II or III (3-oxoicosanoyl-CoA)	(YCR034W OR YLR372W)	malonyl-CoA + H+ + stearoyl-CoA  -> carbon dioxide + coenzyme A + 3-oxoicosanoyl-CoA 
+0.55	r_2158	elongase II or III (3-oxodocosanoyl-CoA)	(YCR034W OR YLR372W)	malonyl-CoA + H+ + icosanoyl-CoA  -> carbon dioxide + coenzyme A + 3-oxodocosanoyl-CoA 
+0.55	r_2159	elongase II or III (3-oxotetracosanoyl-CoA)	(YCR034W OR YLR372W)	malonyl-CoA + H+ + docosanoyl-CoA  -> carbon dioxide + coenzyme A + 3-oxotetracosanoyl-CoA 
+0.55	r_2164	B-ketoacyl-CoA reductase (3-hydroxyicosanoyl-CoA)	YBR159W	H+ + 3-oxoicosanoyl-CoA + NADPH  -> NADP(+) + 3-hydroxyicosanoyl-CoA 
+0.55	r_2165	B-ketoacyl-CoA reductase (3-hydroxydocosanoyl-CoA)	YBR159W	H+ + 3-oxodocosanoyl-CoA + NADPH  -> NADP(+) + 3-hydroxydocosanoyl-CoA 
+0.55	r_2166	B-ketoacyl-CoA reductase (3-hydroxytetracosanoyl-CoA)	YBR159W	H+ + 3-oxotetracosanoyl-CoA + NADPH  -> NADP(+) + 3-hydroxytetracosanoyl-CoA 
+0.55	r_2171	B-hydroxyacyl-CoA dehydratase (trans-icos-2-enoyl-CoA)	YJL097W	3-hydroxyicosanoyl-CoA  -> H2O + trans-icos-2-enoyl-CoA 
+0.55	r_2172	B-hydroxyacyl-CoA dehydratase (trans-docos-2-enoyl-CoA)	YJL097W	3-hydroxydocosanoyl-CoA  -> H2O + trans-docos-2-enoyl-CoA 
+0.55	r_2173	B-hydroxyacyl-CoA dehydratase (trans-tetracos-2-enoyl-CoA)	YJL097W	3-hydroxytetracosanoyl-CoA  -> H2O + trans-tetracos-2-enoyl-CoA 
+0.55	r_2178	trans-2-enoyl-CoA reductase (n-C20:0CoA)	YDL015C	H+ + NADPH + trans-icos-2-enoyl-CoA  -> icosanoyl-CoA + NADP(+) 
+0.55	r_2179	trans-2-enoyl-CoA reductase (n-C22:0CoA)	YDL015C	H+ + NADPH + trans-docos-2-enoyl-CoA  -> docosanoyl-CoA + NADP(+) 
+0.55	r_2180	trans-2-enoyl-CoA reductase (n-C24:0CoA)	YDL015C	H+ + NADPH + trans-tetracos-2-enoyl-CoA  -> tetracosanoyl-CoA + NADP(+) 
+0.55	r_2214_REV	fatty-acid--CoA ligase (lignoceric acid), ER membrane (reversible)	YBR041W	tetracosanoyl-CoA + AMP + diphosphate  -> coenzyme A + ATP + lignoceric acid 
+0.55	r_1129	coenzyme A transport	YHR002W	coenzyme A  -> coenzyme A 
+0.55	r_2141	fatty-acyl-CoA synthase (n-C18:0CoA)	(YKL182W AND YPL231W)	acetyl-CoA + 24 H+ + 8 malonyl-CoA + 16 NADPH  -> 8 carbon dioxide + 8 coenzyme A + 8 H2O + 16 NADP(+) + stearoyl-CoA 
+0.55	r_0309	cystathionine beta-synthase	YGR155W	L-homocysteine + L-serine  -> H2O + L-cystathionine 
+0.55	r_0310	cystathionine g-lyase	YAL012W	H2O + L-cystathionine  -> 2-oxobutanoate + ammonium + L-cysteine 
+0.55	r_0032	3',5'-bisphosphate nucleotidase	YOL064C	adenosine 3',5'-bismonophosphate + H2O  -> AMP + phosphate 
+0.55	r_0109	acetyl-CoA carboxylase, reaction	(YDL141W AND YNR016C)	acetyl-CoA + ATP + bicarbonate  -> ADP + H+ + malonyl-CoA + phosphate 
+0.55	r_0112	acetyl-CoA synthetase	(YAL054C OR YLR153C)	acetate + ATP + coenzyme A  -> acetyl-CoA + AMP + diphosphate 
+0.55	r_0154	adenylyl-sulfate kinase	YKL001C	5'-adenylyl sulfate + ATP  -> 3'-phospho-5'-adenylyl sulfate + ADP + H+ 
+0.55	r_0549	homoserine O-trans-acetylase	YNL277W	acetyl-CoA + L-homoserine  -> coenzyme A + O-acetyl-L-homoserine 
+0.55	r_0813	O-acetylhomoserine (thiol)-lyase	YLR303W	hydrogen sulfide + O-acetyl-L-homoserine  -> acetate + H+ + L-homocysteine 
+0.55	r_0883	phosphoadenylyl-sulfate reductase (thioredoxin)	((YGR209C AND YPR167C) OR (YLR043C AND YPR167C))	3'-phospho-5'-adenylyl sulfate + TRX1  -> adenosine 3',5'-bismonophosphate + 2 H+ + sulphite + TRX1 disulphide 
+0.55	r_0939	prephenate dehydrogenase (NADP)	YBR166C	NADP(+) + prephenate  -> 3-(4-hydroxyphenyl)pyruvate + carbon dioxide + NADPH 
+0.55	r_1026	sulfate adenylyltransferase (ADP)	YCL050C	ADP + H+ + sulphate  -> 5'-adenylyl sulfate + phosphate 
+0.55	r_1027	sulfite reductase (NADPH2)	(YFR030W AND YJR137C)	5 H+ + 3 NADPH + sulphite  -> 3 H2O + hydrogen sulfide + 3 NADP(+) 
+0.55	r_1038	thioredoxin reductase (NADPH)	((YDR353W AND YGR209C) OR (YDR353W AND YLR043C) OR YDR353W)	H+ + NADPH + TRX1 disulphide  -> NADP(+) + TRX1 
+0.55	r_1266	sulfate uniport	(YBR294W OR YLR092W)	sulphate  -> sulphate 
+0.55	r_0959	pyruvate decarboxylase	(YGR087C OR YLR044C OR YLR134W)	H+ + pyruvate  -> acetaldehyde + carbon dioxide 
+0.55	r_2116	acetaldehyde dehydrogenase	YMR170C	acetaldehyde + H2O + NAD  -> acetate + H+ + NADH 
+0.55	r_2140	fatty-acyl-CoA synthase (n-C16:0CoA)	(YKL182W AND YPL231W)	acetyl-CoA + 21 H+ + 7 malonyl-CoA + 14 NADPH  -> 7 carbon dioxide + 7 coenzyme A + 7 H2O + 14 NADP(+) + palmitoyl-CoA 
+0.55	r_2182	palmitoyl-CoA desaturase (n-C16:0CoA -> n-C16:1CoA), ER membrane	YGL055W	H+ + palmitoyl-CoA + oxygen + NADH  -> 2 H2O + palmitoleoyl-CoA + NAD 
+0.55	r_0278	chorismate mutase	YPR060C	chorismate  -> prephenate 
+0.55	r_0005	1,3-beta-glucan synthase	(YGR032W OR YLR342W)	UDP-D-glucose  -> (1->3)-beta-D-glucan + H+ + UDP 
+0.55	r_0006	1,6-beta-glucan synthase	(YGR143W OR YPR159W)	UDP-D-glucose  -> (1->6)-beta-D-glucan + H+ + UDP 
+0.55	r_0007	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase	YIL020C	1-(5-phospho-D-ribosyl)-5-[(5-phospho-D-ribosylamino)methylideneamino]imidazole-4-carboxamide  -> 5-[(5-phospho-1-deoxy-D-ribulos-1-ylamino)methylideneamino]-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide 
+0.55	r_0014	2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate deaminase	YOL066C	2,5-diamino-6-(5-phosphono)ribitylamino-4(3H)-pyrimidinone + H+ + H2O  -> 5-amino-6-(5-phosphoribitylamino)uracil + ammonium 
+0.55	r_0015	2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 5'-phosphate reductase (NADPH)	YBR153W	2,5-diamino-4-hydroxy-6-(5-phosphoribosylamino)pyrimidine + H+ + NADPH  -> 2,5-diamino-6-(5-phosphono)ribitylamino-4(3H)-pyrimidinone + NADP(+) 
+0.55	r_0016	2-aceto-2-hydroxybutanoate synthase	((YCL009C AND YMR108W) OR YMR108W)	2-oxobutanoate + H+ + pyruvate  -> (S)-2-acetyl-2-hydroxybutanoate + carbon dioxide 
+0.55	r_0025	2-isopropylmalate synthase	YNL104C	3-methyl-2-oxobutanoate + acetyl-CoA + H2O  -> 2-isopropylmalate + coenzyme A + H+ 
+0.55	r_0027	2-methylcitrate dehydratase	YDR234W	homocitrate  -> but-1-ene-1,2,4-tricarboxylic acid + H2O 
+0.55	r_0029	2-oxo-4-methyl-3-carboxypentanoate decarboxylation	YJR148W	(2S)-2-isopropyl-3-oxosuccinate + H+  -> 4-methyl-2-oxopentanoate + carbon dioxide 
+0.55	r_0038	3,4-dihydroxy-2-butanone-4-phosphate synthase	YDR487C	D-ribulose 5-phosphate  -> 2-hydroxy-3-oxobutyl phosphate + formate + H+ 
+0.55	r_0061	3-isopropylmalate dehydrogenase	YCL018W	(2R,3S)-3-isopropylmalate + NAD  -> (2S)-2-isopropyl-3-oxosuccinate + H+ + NADH 
+0.55	r_0080	5,10-methylenetetrahydrofolate reductase (NADPH)	(YGL125W OR YPL023C)	5,10-methylenetetrahydrofolate + 2 H+ + NADPH  -> 5-methyltetrahydrofolate + NADP(+) 
+0.55	r_0081	5-aminolevulinate synthase	YDR232W	H+ + L-glycine + succinyl-CoA  -> 5-aminolevulinate + carbon dioxide + coenzyme A 
+0.55	r_0096	acetohydroxy acid isomeroreductase	YLR355C	2-acetyllactic acid + H+ + NADPH  -> (R)-2,3-dihydroxy-3-methylbutanoate + NADP(+) 
+0.55	r_0097	acetolactate synthase	((YCL009C AND YMR108W) OR YMR108W)	H+ + 2 pyruvate  -> 2-acetyllactic acid + carbon dioxide 
+0.55	r_0104	acetyl-CoA C-acetyltransferase	YPL028W	2 acetyl-CoA  -> acetoacetyl-CoA + coenzyme A 
+0.55	r_0127	acyl-CoA:sterol acyltransferase (oleoyl-CoA:ergosterol), ER membrane	(YCR048W OR YNR019W)	oleoyl-CoA + ergosterol  -> coenzyme A + ergosteryl oleate 
+0.55	r_0142	adenosine kinase	YJR105W	adenosine + ATP  -> ADP + AMP + H+ 
+0.55	r_0144	adenosylhomocysteinase	YER043C	H2O + S-adenosyl-L-homocysteine  -> adenosine + L-homocysteine 
+0.55	r_0157	alanyl-tRNA synthetase	YOR335C	ATP + L-alanine + tRNA(Ala), cytoplasmic  -> Ala-tRNA(Ala) + AMP + diphosphate 
+0.55	r_0195	alpha,alpha-trehalose-phosphate synthase (UDP-forming)	((YBR126C AND YDR074W AND YML100W) OR (YBR126C AND YDR074W AND YMR261C))	D-glucose 6-phosphate + UDP-D-glucose  -> alpha,alpha-trehalose 6-phosphate + H+ + UDP 
+0.55	r_0207	argininosuccinate lyase	YHR018C	(N(omega)-L-arginino)succinic acid  -> fumarate + L-arginine 
+0.55	r_0208	argininosuccinate synthase	YOL058W	ATP + L-aspartate + L-citrulline  -> (N(omega)-L-arginino)succinic acid + AMP + diphosphate + H+ 
+0.55	r_0209	arginyl-tRNA synthetase	YDR341C	ATP + L-arginine + tRNA(Arg), cytoplasmic  -> AMP + Arg-tRNA(Arg) + diphosphate 
+0.55	r_0211	asparagine synthase (glutamine-hydrolysing)	(YGR124W OR YPR145W)	ATP + H2O + L-aspartate + L-glutamine  -> AMP + diphosphate + H+ + L-asparagine + L-glutamate 
+0.55	r_0212	Asparaginyl-tRNA synthetase	YHR019C	ATP + L-asparagine + tRNA(Asn), cytoplasmic  -> AMP + Asn-tRNA(Asn) + diphosphate 
+0.55	r_0215	aspartate kinase	YER052C	ATP + L-aspartate  -> 4-phospho-L-aspartate + ADP 
+0.55	r_0219	aspartate-semialdehyde dehydrogenase	YDR158W	4-phospho-L-aspartate + H+ + NADPH  -> L-aspartate 4-semialdehyde + NADP(+) + phosphate 
+0.55	r_0220	Aspartyl-tRNA synthetase	YLL018C	ATP + L-aspartate + tRNA(Asp), cytoplasmic  -> AMP + Asp-tRNA(Asp) + diphosphate 
+0.55	r_0225	ATP phosphoribosyltransferase	YER055C	ATP + PRPP  -> 5-phosphoribosyl-ATP + diphosphate 
+0.55	r_0231	C-14 sterol reductase	YNL280C	4,4-dimethyl-5alpha-cholesta-8,14,24-trien-3beta-ol + H+ + NADPH  -> 14-demethyllanosterol + NADP(+) 
+0.55	r_0234	C-3 sterol dehydrogenase	YGL001C	NADP(+) + zymosterol intermediate 1c  -> carbon dioxide + H+ + NADPH + zymosterol intermediate 2 
+0.55	r_0235	C-3 sterol dehydrogenase (4-methylzymosterol)	YGL001C	4beta-methylzymosterol-4alpha-carboxylic acid + NAD  -> 3-dehydro-4-methylzymosterol + carbon dioxide + H+ + NADH 
+0.55	r_0236	C-3 sterol keto reductase (4-methylzymosterol)	YLR100W	3-dehydro-4-methylzymosterol + H+ + NADPH  -> 4alpha-methylzymosterol + NADP(+) 
+0.55	r_0237	C-3 sterol keto reductase (zymosterol)	YLR100W	H+ + NADPH + zymosterol intermediate 2  -> NADP(+) + zymosterol 
+0.55	r_0238	C-4 methyl sterol oxidase	YGR060W	4alpha-methylzymosterol + H+ + NADPH + oxygen  -> H2O + NADP(+) + zymosterol intermediate 1a 
+0.55	r_0239	C-4 methyl sterol oxidase	YGR060W	H+ + NADPH + oxygen + zymosterol intermediate 1a  -> 2 H2O + NADP(+) + zymosterol intermediate 1b 
+0.55	r_0240	C-4 methyl sterol oxidase	YGR060W	H+ + NADPH + oxygen + zymosterol intermediate 1b  -> H2O + NADP(+) + zymosterol intermediate 1c 
+0.55	r_0241	C-4 sterol methyl oxidase (4,4-dimethylzymosterol)	YGR060W	14-demethyllanosterol + 3 H+ + 3 NADPH + 3 oxygen  -> 4beta-methylzymosterol-4alpha-carboxylic acid + 4 H2O + 3 NADP(+) 
+0.55	r_0243	C-8 sterol isomerase	YMR202W	fecosterol  -> episterol 
+0.55	r_0244	C-s24 sterol reductase	YGL012W	ergosta-5,7,22,24(28)-tetraen-3beta-ol + H+ + NADPH  -> ergosterol + NADP(+) 
+0.55	r_0272	chitin synthase	(YBR023C OR YBR038W OR YNL192W)	UDP-N-acetyl-alpha-D-glucosamine  -> chitin + H+ + UDP 
+0.55	r_0304	coproporphyrinogen oxidase (O2 required)	YDR044W	coproporphyrinogen III + 2 H+ + oxygen  -> 2 carbon dioxide + 2 H2O + protoporphyrinogen 
+0.55	r_0313	cysteinyl-tRNA synthetase	YNL247W	ATP + L-cysteine + tRNA(Cys), cytoplasmic  -> AMP + Cys-tRNA(Cys) + diphosphate 
+0.55	r_0317	cytochrome P450 lanosterol 14-alpha-demethylase (NADP)	(YHR007C AND YHR042W)	2 H+ + lanosterol + 3 NADPH + 3 oxygen  -> 4,4-dimethyl-5alpha-cholesta-8,14,24-trien-3beta-ol + formate + 4 H2O + 3 NADP(+) 
+0.55	r_0352	dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate)	YJR016C	(R)-2,3-dihydroxy-3-methylbutanoate  -> 3-methyl-2-oxobutanoate + H2O 
+0.55	r_0353	dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)	YJR016C	(2R,3R)-2,3-dihydroxy-3-methylpentanoate  -> (S)-3-methyl-2-oxopentanoate + H2O 
+0.55	r_0355	dimethylallyltranstransferase	YJL167W	isopentenyl diphosphate + prenyl diphosphate  -> diphosphate + geranyl diphosphate 
+0.55	r_0361	dolichyl-phosphate D-mannosyltransferase	YPR183W	dolichyl phosphate + GDP-alpha-D-mannose  -> dolichyl D-mannosyl phosphate + GDP 
+0.55	r_0362	dolichyl-phosphate-mannose--protein mannosyltransferase	((YAL023C AND YDL095W) OR YDL093W OR YJR143C OR YOR321W)	dolichyl D-mannosyl phosphate  -> dolichyl phosphate + H+ + mannan 
+0.55	r_0436	ferrochelatase	YOR176W	iron + protoporphyrin  -> ferroheme b + 2 H+ 
+0.55	r_0462	geranyltranstransferase	YJL167W	geranyl diphosphate + isopentenyl diphosphate  -> farnesyl diphosphate + diphosphate 
+0.55	r_0477	glutamine-fructose-6-phosphate transaminase	YKL104C	D-fructose 6-phosphate + L-glutamine  -> alpha-D-glucosamine 6-phosphate + L-glutamate 
+0.55	r_0478	glutaminyl-tRNA synthetase	YOR168W	ATP + L-glutamine + tRNA(Gln), cytoplasmic  -> AMP + diphosphate + Gln-tRNA(Gln) 
+0.55	r_0479	glutamyl-tRNA synthetase	YGL245W	ATP + L-glutamate + tRNA(Glu), cytoplasmic  -> AMP + diphosphate + Glu-tRNA(Glu) 
+0.55	r_0491	glycerol-3-phosphate dehydrogenase (NAD)	(YDL022W OR YOL059W)	dihydroxyacetone phosphate + H+ + NADH  -> glycerol 3-phosphate + NAD 
+0.55	r_0510	glycogen (starch) synthase	((YFR015C AND YJL137C) OR (YFR015C AND YKR058W) OR (YJL137C AND YLR258W) OR (YKR058W AND YLR258W))	H2O + UDP-D-glucose  -> glycogen + H+ + UDP 
+0.55	r_0512	glycyl-tRNA synthetase	(YBR121C OR YPR081C)	ATP + L-glycine + tRNA(Gly), cytoplasmic  -> AMP + diphosphate + Gly-tRNA(Gly) 
+0.55	r_0514	GMP synthase	YMR217W	ATP + H2O + L-glutamine + xanthosine-5-phosphate  -> AMP + diphosphate + GMP + 2 H+ + L-glutamate 
+0.55	r_0525	GTP cyclohydrolase II	YBL033C	GTP + 3 H2O  -> 2,5-diamino-4-hydroxy-6-(5-phosphoribosylamino)pyrimidine + diphosphate + formate + 2 H+ 
+0.55	r_0530	heme O monooxygenase	(YDR376W AND YPL252C)	heme o + NADH + oxygen  -> H2O + heme a + NAD 
+0.55	r_0531	Heme O synthase	YPL172C	farnesyl diphosphate + ferroheme b + H2O  -> diphosphate + heme o 
+0.55	r_0536	histidinol dehydrogenase	YCL030C	H2O + L-histidinol + 2 NAD  -> 3 H+ + L-histidine + 2 NADH 
+0.55	r_0537	histidinol-phosphatase	YFR025C	H2O + L-histidinol phosphate  -> L-histidinol + phosphate 
+0.55	r_0538	histidinol-phosphate transaminase	YIL116W	3-(imidazol-4-yl)-2-oxopropyl dihydrogen phosphate + L-glutamate  -> 2-oxoglutarate + L-histidinol phosphate 
+0.55	r_0539	histidyl-tRNA synthetase	YPR033C	ATP + L-histidine + tRNA(His), cytoplasmic  -> AMP + diphosphate + His-tRNA(His) 
+0.55	r_0542	homoacontinate hydratase	YDR234W	but-1-ene-1,2,4-tricarboxylic acid + H2O  -> homoisocitrate 
+0.55	r_0545	homoisocitrate dehydrogenase	YIL094C	homoisocitrate + NAD  -> 2-oxoadipic acid + carbon dioxide + H+ + NADH 
+0.55	r_0546	homoserine dehydrogenase (NADH)	YJR139C	H+ + L-aspartate 4-semialdehyde + NADH  -> L-homoserine + NAD 
+0.55	r_0548	homoserine kinase	YHR025W	ATP + L-homoserine  -> ADP + H+ + O-phospho-L-homoserine 
+0.55	r_0557	hydroxymethylbilane synthase	YDL205C	H2O + 4 porphobilinogen  -> 4 ammonium + preuroporphyrinogen 
+0.55	r_0558	hydroxymethylglutaryl CoA reductase	(YLR450W OR YML075C)	3-hydroxy-3-methylglutaryl-CoA + 2 H+ + 2 NADPH  -> (R)-mevalonate + coenzyme A + 2 NADP(+) 
+0.55	r_0560	hydroxymethylglutaryl CoA synthase	YML126C	acetoacetyl-CoA + acetyl-CoA + H2O  -> 3-hydroxy-3-methylglutaryl-CoA + coenzyme A + H+ 
+0.55	r_0563	Imidazole-glycerol-3-phosphate synthase	YBR248C	5-[(5-phospho-1-deoxy-D-ribulos-1-ylamino)methylideneamino]-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide + L-glutamine  -> AICAR + D-erythro-1-(imidazol-4-yl)glycerol 3-phosphate + H+ + L-glutamate 
+0.55	r_0564	imidazoleglycerol-phosphate dehydratase	YOR202W	D-erythro-1-(imidazol-4-yl)glycerol 3-phosphate  -> 3-(imidazol-4-yl)-2-oxopropyl dihydrogen phosphate + H2O 
+0.55	r_0565	IMP dehydrogenase	(YHR216W OR YLR432W OR YML056C)	H2O + IMP + NAD  -> H+ + NADH + xanthosine-5-phosphate 
+0.55	r_0665	isoleucyl-tRNA synthetase	YBL076C	ATP + L-isoleucine + tRNA(Ile), cytoplasmic  -> AMP + diphosphate + Ile-tRNA(Ile) 
+0.55	r_0667	isopentenyl-diphosphate D-isomerase	YPL117C	isopentenyl diphosphate  -> prenyl diphosphate 
+0.55	r_0669	ketol-acid reductoisomerase (2-aceto-2-hydroxybutanoate)	YLR355C	(S)-2-acetyl-2-hydroxybutanoate + H+ + NADPH  -> (2R,3R)-2,3-dihydroxy-3-methylpentanoate + NADP(+) 
+0.55	r_0678	L-aminoadipate-semialdehyde dehydrogenase (NADPH)	(YBR115C AND YGL154C)	ATP + H+ + L-2-aminoadipate + NADPH  -> AMP + diphosphate + L-allysine + NADP(+) 
+0.55	r_0692	L-threonine deaminase	YCL064C	L-threonine  -> 2-oxobutanoate + ammonium 
+0.55	r_0698	lanosterol synthase	YHR072W	(S)-2,3-epoxysqualene  -> lanosterol 
+0.55	r_0701	leucyl-tRNA synthetase	YPL160W	ATP + L-leucine + tRNA(Leu), cytoplasmic  -> AMP + diphosphate + Leu-tRNA(Leu) 
+0.55	r_0711	lysyl-tRNA synthetase	YDR037W	ATP + L-lysine + tRNA(Lys), cytoplasmic  -> AMP + diphosphate + Lys-tRNA(Lys) 
+0.55	r_0722	mannose-1-phosphate guanylyltransferase	YDL055C	D-mannose 1-phosphate + GTP + H+  -> diphosphate + GDP-alpha-D-mannose 
+0.55	r_0726	methionine adenosyltransferase	(YDR502C OR YLR180W)	ATP + H2O + L-methionine  -> diphosphate + phosphate + S-adenosyl-L-methionine 
+0.55	r_0727	methionine synthase	YER091C	5-methyltetrahydrofolate + L-homocysteine  -> H+ + L-methionine + THF 
+0.55	r_0729	methionyl-tRNA synthetase	YGR264C	ATP + L-methionine + tRNA(Met), cytoplasmic  -> AMP + diphosphate + Met-tRNA(Met) 
+0.55	r_0736	mevalonate kinase (ctp)	YMR208W	(R)-mevalonate + CTP  -> (R)-5-phosphomevalonic acid + CDP + H+ 
+0.55	r_0739	mevalonate pyrophoshate decarboxylase	YNR043W	(R)-5-diphosphomevalonic acid + ATP  -> ADP + carbon dioxide + isopentenyl diphosphate + phosphate 
+0.55	r_0760	N-acetylglucosamine-6-phosphate synthase	YFL017C	acetyl-CoA + alpha-D-glucosamine 6-phosphate  -> coenzyme A + H+ + N-acetyl-D-glucosamine 6-phosphate 
+0.55	r_0811	nucleoside-diphosphate kinase (ATP:UDP)	YKL067W	ATP + UDP  -> ADP + UTP 
+0.55	r_0816	ornithine carbamoyltransferase	YJL088W	carbamoyl phosphate + ornithine  -> H+ + L-citrulline + phosphate 
+0.55	r_0852	phenylalanyl-tRNA synthetase	(YFL022C AND YLR060W)	ATP + L-phenylalanine + tRNA(Phe), cytoplasmic  -> AMP + diphosphate + Phe-tRNA(Phe) 
+0.55	r_0882	phosphoacetylglucosamine mutase	YEL058W	N-acetyl-D-glucosamine 6-phosphate  -> N-acetyl-alpha-D-glucosamine 1-phosphate 
+0.55	r_0888	phosphoglucomutase	(YKL127W OR YMR105C)	D-glucose 6-phosphate  -> D-glucose 1-phosphate 
+0.55	r_0904	phosphomevalonate kinase	YMR220W	(R)-5-phosphomevalonic acid + ATP  -> (R)-5-diphosphomevalonic acid + ADP 
+0.55	r_0909	phosphoribosyl-AMP cyclohydrolase	YCL030C	1-(5-phosphoribosyl)-5'-AMP + H2O  -> 1-(5-phospho-D-ribosyl)-5-[(5-phospho-D-ribosylamino)methylideneamino]imidazole-4-carboxamide 
+0.55	r_0910	phosphoribosyl-ATP pyrophosphatase	YCL030C	5-phosphoribosyl-ATP + H2O  -> 1-(5-phosphoribosyl)-5'-AMP + diphosphate + H+ 
+0.55	r_0935	porphobilinogen synthase	YGL040C	2 5-aminolevulinate  -> H+ + 2 H2O + porphobilinogen 
+0.55	r_0938	prephenate dehydratase	YNL316C	H+ + prephenate  -> carbon dioxide + H2O + keto-phenylpyruvate 
+0.55	r_0941	prolyl-tRNA synthetase	YHR020W	ATP + L-proline + tRNA(Pro), cytoplasmic  -> AMP + diphosphate + H+ + Pro-tRNA(Pro) 
+0.55	r_0942	protoporphyrinogen oxidase	YER014W	3 oxygen + 2 protoporphyrinogen  -> 6 H2O + 2 protoporphyrin 
+0.55	r_0957	pyrroline-5-carboxylate reductase	YER023W	1-pyrroline-5-carboxylate + 2 H+ + NADPH  -> L-proline + NADP(+) 
+0.55	r_0967	riboflavin synthase	YOL143C	2-hydroxy-3-oxobutyl phosphate + 5-amino-6-(D-ribitylamino)uracil  -> 6,7-dimethyl-8-(1-D-ribityl)lumazine + 2 H2O + phosphate 
+0.55	r_0968	riboflavin synthase	YBR256C	2 6,7-dimethyl-8-(1-D-ribityl)lumazine  -> 5-amino-6-(D-ribitylamino)uracil + riboflavin 
+0.55	r_0978	ribonucleotide reductase	(YER070W OR YGR180C OR YIL066C OR YJL026W)	GDP + TRX1  -> dGDP + H2O + TRX1 disulphide 
+0.55	r_0986	S-adenosyl-methionine delta-24-sterol-c-methyltransferase	YML008C	S-adenosyl-L-methionine + zymosterol  -> fecosterol + H+ + S-adenosyl-L-homocysteine 
+0.55	r_0988	saccharopine dehydrogenase (NAD, L-lysine forming)	YIR034C	H2O + L-saccharopine + NAD  -> 2-oxoglutarate + H+ + L-lysine + NADH 
+0.55	r_0989	saccharopine dehydrogenase (NADP, L-glutamate forming)	YNR050C	H+ + L-allysine + L-glutamate + NADPH  -> H2O + L-saccharopine + NADP(+) 
+0.55	r_0995	seryl-tRNA synthetase	(YDR023W OR YHR011W)	ATP + L-serine + tRNA(Ser), cytoplasmic  -> AMP + diphosphate + Ser-tRNA(Ser) 
+0.55	r_1011	squalene epoxidase (NADP)	YGR175C	H+ + NADPH + oxygen + squalene  -> (S)-2,3-epoxysqualene + H2O + NADP(+) 
+0.55	r_1012	squalene synthase	YHR190W	2 farnesyl diphosphate + H+ + NADPH  -> 2 diphosphate + NADP(+) + squalene 
+0.55	r_1041	threonine synthase	YCR053W	H2O + O-phospho-L-homoserine  -> L-threonine + phosphate 
+0.55	r_1042	threonyl-tRNA synthetase	YIL078W	ATP + L-threonine + tRNA(Thr), cytoplasmic  -> AMP + diphosphate + Thr-tRNA(Thr) 
+0.55	r_1045	thymidylate synthase	YOR074C	5,10-methylenetetrahydrofolate + dUMP  -> dihydrofolic acid + dTMP 
+0.55	r_1051	trehalose-phosphatase	((YBR126C AND YDR074W AND YML100W) OR (YBR126C AND YDR074W AND YMR261C))	alpha,alpha-trehalose 6-phosphate + H2O  -> phosphate + trehalose 
+0.55	r_1057	tryptophanyl-tRNA synthetase	YOL097C	ATP + L-tryptophan + tRNA(Trp), cytoplasmic  -> AMP + diphosphate + Trp-tRNA(Trp) 
+0.55	r_1066	tyrosyl-tRNA synthetase	YGR185C	ATP + L-tyrosine + tRNA(Tyr), cytoplasmic  -> AMP + diphosphate + Tyr-tRNA(Tyr) 
+0.55	r_1069	UDP-N-acetylglucosamine diphosphorylase	YDL103C	H+ + N-acetyl-alpha-D-glucosamine 1-phosphate + UTP  -> diphosphate + UDP-N-acetyl-alpha-D-glucosamine 
+0.55	r_1081	uroporphyrinogen decarboxylase (uroporphyrinogen III)	YDR047W	4 H+ + uroporphyrinogen III  -> 4 carbon dioxide + coproporphyrinogen III 
+0.55	r_1083	uroporphyrinogen-III synthase	YOR278W	preuroporphyrinogen  -> H2O + uroporphyrinogen III 
+0.55	r_1084	UTP-glucose-1-phosphate uridylyltransferase	YKL035W	D-glucose 1-phosphate + H+ + UTP  -> diphosphate + UDP-D-glucose 
+0.55	r_1089	valyl-tRNA synthetase	YGR094W	ATP + L-valine + tRNA(Val), cytoplasmic  -> AMP + diphosphate + Val-tRNA(Val) 
+0.55	r_1838	homocitrate synthase	(YDL131W OR YDL182W)	2-oxoglutarate + acetyl-CoA + H2O  -> coenzyme A + H+ + homocitrate 
+0.55	r_2183	stearoyl-CoA desaturase (n-C18:0CoA -> n-C18:1CoA), ER membrane	YGL055W	H+ + stearoyl-CoA + oxygen + NADH  -> 2 H2O + NAD + oleoyl-CoA 
+0.55	r_2308	glycerol-3-phosphate acyltransferase (16:0), ER membrane	(YBL011W OR YKR067W)	palmitoyl-CoA + glycerol 3-phosphate  -> coenzyme A + 1-acyl-sn-glycerol 3-phosphate (16:0) 
+0.55	r_2332	1-acyl-sn-glycerol-3-phosphate acyltransferase (1-16:0, 2-16:1), ER membrane	YOR175C	palmitoleoyl-CoA + 1-acyl-sn-glycerol 3-phosphate (16:0)  -> coenzyme A + phosphatidate (1-16:0, 2-16:1) 
+0.55	r_2368	diacylglycerol acyltransferase (1-16:0, 2-16:1, 3-16:0), ER membrane	(YCR048W OR YNR019W OR YOR245C)	palmitoyl-CoA + diglyceride (1-16:0, 2-16:1)  -> coenzyme A + triglyceride (1-16:0, 2-16:1, 3-16:0) 
+0.55	r_2446	PS synthase (1-16:0, 2-16:1), ER membrane	YER026C	CDP-diacylglycerol (1-16:0, 2-16:1) + L-serine  -> H+ + CMP + phosphatidyl-L-serine (1-16:0, 2-16:1) 
+0.55	r_2464	PS decarboxylase (1-16:0, 2-16:1), mitochondrial membrane	YNL169C	H+ + phosphatidyl-L-serine (1-16:0, 2-16:1)  -> carbon dioxide + phosphatidylethanolamine (1-16:0, 2-16:1) 
+0.55	r_2488	PE methyltransferase (1-16:0, 2-16:1), ER membrane	(YGR157W OR YJR073C)	phosphatidylethanolamine (1-16:0, 2-16:1) + S-adenosyl-L-methionine  -> H+ + S-adenosyl-L-homocysteine + phosphatidyl-N-methylethanolamine (1-16:0, 2-16:1) 
+0.55	r_2496	phosphatidyl-N-methylethanolamine methyltransferase (1-16:0, 2-16:1), ER membrane	YJR073C	S-adenosyl-L-methionine + phosphatidyl-N-methylethanolamine (1-16:0, 2-16:1)  -> H+ + S-adenosyl-L-homocysteine + phosphatidyl-N,N-dimethylethanolamine (1-16:0, 2-16:1) 
+0.55	r_2504	phosphatidyl-N,N-dimethylethanolamine methyltransferase (1-16:0, 2-16:1), ER membrane	YJR073C	S-adenosyl-L-methionine + phosphatidyl-N,N-dimethylethanolamine (1-16:0, 2-16:1)  -> H+ + S-adenosyl-L-homocysteine + phosphatidylcholine (1-16:0, 2-16:1) 
+0.55	r_1099	2-oxoadipate and 2-oxoglutarate transport	(YOR222W OR YPL134C)	2-oxoadipic acid + 2-oxoglutarate  -> 2-oxoadipic acid + 2-oxoglutarate 
+0.55	r_1178	iron (II) transport	YMR319C	iron  -> iron 
+0.55	r_0023_REV	2-isopropylmalate hydratase (reversible)	YGL009C	2-isopropylmalate  -> 2-isopropylmaleic acid + H2O 
+0.55	r_0060_REV	3-isopropylmalate dehydratase (reversible)	YGL009C	2-isopropylmaleic acid + H2O  -> (2R,3S)-3-isopropylmalate 
+0.55	r_0330_REV	deoxyguanylate kinase (dGMP:ATP) (reversible)	YDR454C	ADP + dGDP  -> ATP + dGMP 
+0.55	r_0699_REV	leucine transaminase (reversible)	YJR148W	4-methyl-2-oxopentanoate + L-glutamate  -> 2-oxoglutarate + L-leucine 
+0.55	r_0723_REV	mannose-6-phosphate isomerase (reversible)	YER003C	D-fructose 6-phosphate  -> D-mannose 6-phosphate 
+0.55	r_0902_REV	phosphomannomutase (reversible)	YFL045C	D-mannose 6-phosphate  -> D-mannose 1-phosphate 
+0.55	r_1088_REV	valine transaminase, mitochondiral (reversible)	YHR208W	3-methyl-2-oxobutanoate + L-glutamate  -> 2-oxoglutarate + L-valine 
+0.55	r_0250	carbamoyl-phosphate synthase (glutamine-hydrolysing)	(YJL130C OR (YJR109C AND YOR303W))	2 ATP + bicarbonate + H2O + L-glutamine  -> 2 ADP + carbamoyl phosphate + 2 H+ + L-glutamate + phosphate 
+0.55	r_0214	aspartate carbamoyltransferase	YJL130C	carbamoyl phosphate + L-aspartate  -> H+ + N-carbamoyl-L-aspartate + phosphate 
+0.55	r_0453	dihydoorotic acid dehydrogenase	YKL216W	(S)-dihydroorotate + fumarate  -> orotate + succinate 
+0.55	r_0821	orotidine-5'-phosphate decarboxylase	YEL021W	H+ + orotidine 5'-(dihydrogen phosphate)  -> carbon dioxide + UMP 
+0.55	r_1265	succinate-fumarate transport	YJR095W	fumarate + succinate  -> fumarate + succinate 
+0.55	r_0349_REV	dihydroorotase (reversible)	YLR420W	H+ + N-carbamoyl-L-aspartate  -> (S)-dihydroorotate + H2O 
+0.55	r_0820_REV	orotate phosphoribosyltransferase (reversible)	(YML106W OR YMR271C)	orotate + PRPP  -> diphosphate + orotidine 5'-(dihydrogen phosphate) 
+0.55	r_0344	dihydrofolate reductase	YOR236W	dihydrofolic acid + H+ + NADPH  -> NADP(+) + THF 
+0.55	r_1072	UMP kinase	YKL024C	ATP + UMP  -> ADP + UDP 
+0.55	r_2196_REV	fatty-acid--CoA ligase (hexadecanoate), ER membrane (reversible)	(YMR246W OR YOR317W)	palmitoyl-CoA + AMP + diphosphate  -> coenzyme A + ATP + palmitate 
+0.55	r_0800	nucleoside diphosphate kinase	YKL067W	ATP + GDP  -> ADP + GTP 
+0.55	r_0216_REV	aspartate transaminase (reversible)	YLR027C	L-glutamate + oxaloacetate  -> 2-oxoglutarate + L-aspartate 
+0.55	r_0502	glycine hydroxymethyltransferase	YLR058C	L-serine + THF  -> 5,10-methylenetetrahydrofolate + H2O + L-glycine 
+0.55	r_0732	methylenetetrahydrofolate dehydrogenase (NADP)	YGR204W	5,10-methylenetetrahydrofolate + NADP(+)  -> 5,10-methenyl-THF + NADPH 
+0.55	r_0725	methenyltetrahydrofolate cyclohydrolase	YGR204W	5,10-methenyl-THF + H2O  -> 10-formyl-THF + H+ 
+0.55	r_1244	phosphate transport	(YBR296C OR YCR037C OR YJL198W OR YML123C OR YNR013C)	H+ + phosphate  -> H+ + phosphate 
+0.55	r_0452	fumarase, cytoplasmic	YPL262W	fumarate + H2O  -> (S)-malate 
+0.55	r_0570	inosine monophosphate cyclohydrolase	(YLR028C OR YMR120C)	phosphoribosyl-formamido-carboxamide  -> H2O + IMP 
+0.55	r_0912	phosphoribosylaminoimidazolecarboxamide formyltransferase	(YLR028C OR YMR120C)	10-formyl-THF + AICAR  -> phosphoribosyl-formamido-carboxamide + THF 
+0.55	r_0152	adenylosuccinate lyase	YLR359W	adenylo-succinate  -> AMP + fumarate 
+0.55	r_0153	adenylosuccinate synthase	YNL220W	GTP + IMP + L-aspartate  -> adenylo-succinate + GDP + 2 H+ + phosphate 
+0.55	r_0079	5'-phosphoribosylformyl glycinamidine synthetase	YGR061C	5'-phosphoribosyl-N-formylglycineamide + ATP + H2O + L-glutamine  -> 5'-phosphoribosyl-N-formylglycineamidine + ADP + H+ + L-glutamate + phosphate 
+0.55	r_0151	adenylosuccinate lyase (AICAR)	YLR359W	5'-phosphoribosyl-4-(N-succinocarboxamide)-5-aminoimidazole  -> AICAR + fumarate 
+0.55	r_0499	glycinamide ribotide transformylase	YDR408C	10-formyl-THF + 5-phospho-ribosyl-glycineamide  -> 5'-phosphoribosyl-N-formylglycineamide + H+ + THF 
+0.55	r_0855	phopshoribosylaminoimidazole synthetase	YGL234W	5'-phosphoribosyl-N-formylglycineamidine + ATP  -> 5'-phosphoribosyl-5-aminoimidazole + ADP + 2 H+ + phosphate 
+0.55	r_0908	phosphoribosyl amino imidazolesuccinocarbozamide synthetase	YAR015W	ATP + L-aspartate + phosphoribosyl-carboxy-aminoimidazole  -> 5'-phosphoribosyl-4-(N-succinocarboxamide)-5-aminoimidazole + ADP + H+ + phosphate 
+0.55	r_0911	phosphoribosylaminoimidazole-carboxylase	YOR128C	5'-phosphoribosyl-5-aminoimidazole + ATP + carbon dioxide + H2O  -> ADP + H+ + phosphate + phosphoribosyl-carboxy-aminoimidazole 
+0.55	r_0914	phosphoribosylglycinamidine synthetase	YGL234W	5-phosphoribosylamine + ATP + L-glycine  -> 5-phospho-ribosyl-glycineamide + ADP + H+ + phosphate 
+0.55	r_0915	phosphoribosylpyrophosphate amidotransferase	YMR300C	H2O + L-glutamine + PRPP  -> 5-phosphoribosylamine + diphosphate + L-glutamate 
+0.55	r_0792	nucleoside diphosphatase	YER005W	CDP + H2O  -> CMP + H+ + phosphate 
+0.55	r_3348	inositolphosphotransferase (PI (1-16:0, 2-16:1) MIPC-A (C24))	YDR072C	mannosylinositol phosphorylceramide A (C24) + 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)  -> inositol phosphomannosylinositol phosphoceramide A (C24) + diglyceride (1-16:0, 2-16:1) 
+0.51	r_0958	pyruvate carboxylase	(YBR218C OR YGL062W)	ATP + bicarbonate + pyruvate  -> ADP + H+ + oxaloacetate + phosphate 
+0.46	r_0974	ribonucleotide reductase	(YER070W OR YGR180C OR YIL066C OR YJL026W)	ADP + TRX1  -> dADP + H2O + TRX1 disulphide 
+0.45	r_0528	guanylate kinase	YDR454C	ATP + GMP  -> ADP + GDP 
+0.39	r_0962	pyruvate kinase	(YAL038W OR YOR347C)	ADP + H+ + phosphoenolpyruvate  -> ATP + pyruvate 
+0.35	r_3428	IPC synthase (PI (1-16:0, 2-16:1) ceramide-1 (C24))	(YDR367W AND YKL004W)	ceramide-1 (C24) + 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)  -> inositol-P-ceramide A (C24) + diglyceride (1-16:0, 2-16:1) 
+0.35	r_2132	oxoglutarate/malate exchange	(YOR222W OR YPL134C)	(S)-malate + 2-oxoglutarate  -> (S)-malate + 2-oxoglutarate 
+0.26	r_0984	ribulose 5-phosphate 3-epimerase	YJL121C	D-ribulose 5-phosphate  -> D-xylulose 5-phosphate 
+0.25	r_0714_REV	malate dehydrogenase, cytoplasmic (reversible)	YOL126C	H+ + NADH + oxaloacetate  -> (S)-malate + NAD 
+0.18	r_2119_REV	tyrosine transaminase (reversible)	YHR137W	L-tyrosine + pyruvate  -> 3-(4-hydroxyphenyl)pyruvate + L-alanine 
+0.12	r_0646	IPS phospholipase C	YER019W	H2O + inositol-P-ceramide A (C24)  -> 1D-myo-inositol 1-phosphate + ceramide-1 (C24) 
+0.01	r_1050	transketolase 2	(YBR117C OR YPR074C)	D-erythrose 4-phosphate + D-xylulose 5-phosphate  -> D-fructose 6-phosphate + glyceraldehyde 3-phosphate 
+0.00	r_0001	(R)-lactate:ferricytochrome-c 2-oxidoreductase	((YDL174C AND YEL039C) OR (YDL174C AND YJR048W) OR (YEL039C AND YEL071W) OR (YEL071W AND YJR048W))	(R)-lactate + 2 ferricytochrome c  -> 2 ferrocytochrome c + pyruvate 
+0.00	r_0364	dUTP diphosphatase	YBR252W	dUTP + H2O  -> diphosphate + dUMP + H+ 
+0.00	r_0468	glutamate 5-kinase	YDR300C	ATP + L-glutamate  -> ADP + L-gamma-glutamyl phosphate 
+0.00	r_0473	glutamate-5-semialdehyde dehydrogenase	YOR323C	H+ + L-gamma-glutamyl phosphate + NADPH  -> L-glutamic 5-semialdehyde + NADP(+) + phosphate 
+0.00	r_0553	hydroxyacylglutathione hydrolase	YDR272W	(R)-S-lactoylglutathione + H2O  -> (R)-lactate + glutathione + H+ 
+0.00	r_0697	lactoylglutathione lyase	YML004C	glutathione + methylglyoxal  -> (R)-S-lactoylglutathione 
+0.00	r_0719	malic enzyme (NADP)	YKL029C	(S)-malate + NADP(+)  -> carbon dioxide + NADPH + pyruvate 
+0.00	r_0973	ribonucleoside-triphosphate reductase (UTP)	YGR209C	UTP + TRX1  -> dUTP + H2O + TRX1 disulphide 
+0.00	r_0663_REV	isoleucine transaminase (reversible)	YJR148W	(S)-3-methyl-2-oxopentanoate + L-glutamate  -> 2-oxoglutarate + L-isoleucine 

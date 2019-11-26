@@ -57,3 +57,21 @@ for i = 1:length(grRules)
     end
 end
 disp(['Number of rxns associated to genes: ' num2str(sum(count))])
+
+% Write results:
+fid = fopen('../results/gene_kscores.tsv','wt');
+fprintf(fid,'gene\tglucose.kscore\tethanol.kscore\n');
+for i = 1:length(genes)
+    kscore_glucose = results.geneTable{i,2};
+    kscore_ethanol = results.geneTable{i,3};
+    if isempty(kscore_glucose) && isempty(kscore_ethanol)
+        fprintf(fid,'%s\t\t\n', genes{i});
+    elseif isempty(kscore_glucose)
+        fprintf(fid,'%s\t%.2f\t\n', genes{i}, kscore_ethanol);
+    elseif isempty(kscore_ethanol)
+        fprintf(fid,'%s\t%.2f\t\n', genes{i}, kscore_glucose);
+    else
+        fprintf(fid,'%s\t%.2f\t%.2f\n', genes{i}, kscore_glucose, kscore_ethanol);
+    end
+end
+fclose(fid);

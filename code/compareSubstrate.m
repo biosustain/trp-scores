@@ -93,4 +93,17 @@ FC.k_genes = FC.k_genes(~unchanged);
 FC.genes   = FC.genes(order,:);
 FC.k_genes = FC.k_genes(order,:);
 
+% Write results:
+fid = fopen(['../results/rxn_kscores_' substrate '.tsv'],'wt');
+fprintf(fid,'kscore\trxn.code\trxn.name\trxn.genes\trxn.formula\n');
+for i = 1:length(FC.k_rxns)
+    kscore      = FC.k_rxns(i);
+    rxn_score   = FC.rxns{i,1};
+    rxn_name    = FC.rxns{i,2};
+    rxn_genes   = FC.rxns{i,3};
+    rxn_formula = FC.rxns{i,4};
+    fprintf(fid,'%.2f\t%s\t%s\t%s\t%s\n', kscore, rxn_score, rxn_name, rxn_genes, rxn_formula);
+end
+fclose(fid);
+
 end
