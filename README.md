@@ -1,7 +1,7 @@
 
 # trp-scores
 
-Code used for scoring genes as upregulation / downregulation candidates for increased tryptophan production.
+Code for scoring genes as upregulation / downregulation candidates for increased tryptophan production. Used in [this pre-print](https://doi.org/10.1101/858464).
 
 ### Requirements
 
@@ -17,3 +17,7 @@ Code used for scoring genes as upregulation / downregulation candidates for incr
 ### Documentation
 
 In the Matlab console, type `help function_name` for a description of each Matlab function.
+
+### Citation
+
+Jie Zhang, Søren D. Petersen, Tijana Radivojevic, Andrés Ramirez, Andrés Pérez, Eduardo Abeliuk, Benjamín J. Sánchez, Zachary Costello, Yu Chen, Mike Fero, Hector Garcia Martin, Jens Nielsen, Jay D. Keasling & Michael K. Jensen (2019). _Predictive engineering and optimization of tryptophan metabolism in yeast through a combination of mechanistic and machine learning models._ bioRxiv 858464; doi: https://doi.org/10.1101/858464
